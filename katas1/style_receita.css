@@ -1,1 +1,116 @@
-/* FOLHA DE ESTILO DA PAGINA DE RECEITAS */
+*{
+    background: url("Imagem/minamilist.jpg");
+}
+
+
+body
+{
+    color: black;
+
+}
+
+.tittle{
+   
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+
+.sub-titulo{
+    font-family: arial;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.5s;
+    
+}
+
+.sub-titulo:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+ul{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 230px;
+
+}
+.coffe-1{
+    flex: 1;
+   
+}
+
+.coffe-2{
+    flex: 1;
+}
+
+.coffe-3{
+    flex: 1;
+}
+
+#links{
+    margin-top: 200;
+    display: flex;
+    margin-left: 290px;
+}
+
+#imagens{
+    display: flex;
+    
+}
+
+.image1{
+    margin-left:-35px;
+    transition: all 0.5s;
+}
+
+.image1:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+.image2{
+    margin-left:  190px;
+    width: 170px;
+    transition: all 0.5s;
+}
+
+.image2:hover
+{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+.image3{
+    margin-left: 200px;
+    width: 150px;
+    transition: all 0.5s;
+}
+
+.image3:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+
+.link1{
+    flex: 1;
+color: darkcyan; 
+    
+}
+
+
+.link2{
+    flex: 1;
+    color: darkcyan;
+}
+
+.link3{
+    flex: 1;
+    color: darkcyan;
+}
+
